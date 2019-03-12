@@ -1,4 +1,6 @@
 cennik
 galeria
 o mnie
-jaki rodzaj materialu, uslugi 
+jaki rodzaj materialu, uslugi
+
+ 
