@@ -1,6 +1,7 @@
 <template>
   <v-app>
-    <NavBar></NavBar>
+    <NavBarMobile></NavBarMobile>
+    <Navbar></Navbar>
     <Header></Header>
     <v-content>
       <router-view></router-view>
@@ -9,11 +10,12 @@
 </template>
 
 <script>
-import NavBar from "@/components/NavBar.vue";
+import NavBarMobile from "./components/NavBarMobile.vue";
+import Navbar from "./components/Navbar.vue"
 import Header from "./components/Header.vue";
 export default {
   name: "App",
-  components: { NavBar, Header },
+  components: { NavBarMobile, Navbar, Header },
   data() {
     return {
       //
