@@ -2,7 +2,7 @@
   <nav class="hidden-md-and-up">
     <v-menu offset-y dark bottom origin="center center" transition="scale-transition">
       <template v-slot:activator="{ on }">
-        <v-toolbar dark flat>
+        <v-toolbar dark flat fixed>
           <v-toolbar-side-icon v-on="on"></v-toolbar-side-icon>
         </v-toolbar>
       </template>
