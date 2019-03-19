@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="app-home">
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut dignissimos sint laboriosam deserunt vero corrupti fugiat! Odit est ipsam animi modi blanditiis eos, quis repellendus suscipit, adipisci quam tempora dignissimos.</p>
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut dignissimos sint laboriosam deserunt vero corrupti fugiat! Odit est ipsam animi modi blanditiis eos, quis repellendus suscipit, adipisci quam tempora dignissimos.</p>
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut dignissimos sint laboriosam deserunt vero corrupti fugiat! Odit est ipsam animi modi blanditiis eos, quis repellendus suscipit, adipisci quam tempora dignissimos.</p>

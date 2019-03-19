@@ -1,17 +1,19 @@
 <template>
   <v-app>
-    <NavBarMobile></NavBarMobile>
-    <Navbar></Navbar>
-    <Header></Header>
-    <v-content>
-      <router-view></router-view>
-    </v-content>
+    <div class="wrapper">
+      <NavBarMobile></NavBarMobile>
+      <Navbar></Navbar>
+      <Header></Header>
+      <v-content>
+        <router-view></router-view>
+      </v-content>
+    </div>
   </v-app>
 </template>
 
 <script>
 import NavBarMobile from "./components/NavBarMobile.vue";
-import Navbar from "./components/Navbar.vue"
+import Navbar from "./components/Navbar.vue";
 import Header from "./components/Header.vue";
 export default {
   name: "App",
@@ -25,10 +27,14 @@ export default {
 </script>
 
 <style lang="scss">
-*{
-  margin:0;
-  padding:0;
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+}
+
+.wrapper{
+  background-color:#262626;
 }
 </style>
 
