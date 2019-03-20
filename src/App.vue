@@ -27,13 +27,17 @@ export default {
 </script>
 
 <style lang="scss">
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'PT Sans', sans-serif;
+
 }
 
-.wrapper{
+.application--wrap{
   background-color:#262626;
 }
 </style>
