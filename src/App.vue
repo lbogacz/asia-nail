@@ -7,6 +7,7 @@
       <v-content>
         <router-view></router-view>
       </v-content>
+      <Footer></Footer>
     </div>
   </v-app>
 </template>
@@ -15,9 +16,10 @@
 import NavBarMobile from "./components/NavBarMobile.vue";
 import Navbar from "./components/Navbar.vue";
 import Header from "./components/Header.vue";
+import Footer from "./components/Footer.vue";
 export default {
   name: "App",
-  components: { NavBarMobile, Navbar, Header },
+  components: { NavBarMobile, Navbar, Header, Footer },
   data() {
     return {
       //
