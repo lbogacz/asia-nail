@@ -7,7 +7,7 @@
         </v-toolbar>
       </template>
 
-      <v-list fixed>
+      <v-list>
         <v-list-tile
           v-for="link in links"
           :key="link.text"
