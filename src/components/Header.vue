@@ -5,7 +5,7 @@
     </div>
 
     <div class="app-header-desktop">
-      <v-parallax :src="require('@/assets/pexels-photo-1889347.jpeg')" height="800"></v-parallax>
+      <v-parallax :src="require('@/assets/pexels-photo-1889347.jpeg')" height="900"></v-parallax>
     </div>
   </div>
 </template>
